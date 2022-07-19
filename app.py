@@ -1,3 +1,4 @@
-from digibyte import *
-priv = sha256(‘tower coil ask blind upset floor kid feature enforce perfect true attract’)
-print(priv)
+from tronpy import Tron
+full_node = HttpProvider('https://api.trongrid.io')
+solidity_node = HttpProvider('https://api.trongrid.io')
+event_server = 'https://api.trongrid.io'
